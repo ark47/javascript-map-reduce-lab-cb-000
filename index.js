@@ -9050,9 +9050,9 @@ const nonAutomaticIssues = issues.reduce((totalIssues, issue) => {
 ///////////////
 //SHOWING OFF//
 
-const $tbody = document.getElementById('results');
+const toTable = document.getElementById('results');
 
-$tbody.innnerHTML = nonAutomaticIssues.map(issue => 
+toTable.innerHTML = nonAutomaticIssues.map(issue => 
   `<tr>
     <td>${issue.body}</td>
     <td>${issue.created_at}</td>
