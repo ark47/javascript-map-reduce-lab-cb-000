@@ -9057,4 +9057,4 @@ toTable.innnerHTML = nonAutomaticIssues.map(issue =>
     <td>${issue.created_at}</td>
     <td>${issue.state}</td>
   </tr>`
-).join(' ')
+).join('')
